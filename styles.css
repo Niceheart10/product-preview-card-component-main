@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    width: 1440px;
+    background-image: url(images/favicon-32x32.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.container{
+    max-width: 900px;
+    height: 700px;
+   background-color: var(--Cream);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+    
+   
+}
+img{
+    width: 300px;
+    height: 400px;
+}
+    
+.description{
+    width: 300px;
+    height: 400px;
+    padding: 30px 50px 30px 20px;
+    background-color: var(--White);
+}
+
+.description >p{
+    font-family: Montserrat, Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: var(--Dark-grayish-blue);
+}
+h1{
+    font-family: Montserrat, Poppins;
+    font-size: 28px;
+    font-weight: 700;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    
+}
+.description .price {
+    display: flex;
+    margin: 10px 0;
+    gap: 30px;
+}
+.description .price .sales{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700; 
+    color: var(--Dark-cyan);
+}
+.description .price .original{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500; 
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+    
+}
+
+.description button{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500; 
+    width: 200px;
+    height: 30px;
+    background-color: var(--Dark-cyan);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    color: var(--White);
+}
+@media screen and (max-width: 840px){
+
+}
+
+    
